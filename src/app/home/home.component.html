@@ -1,0 +1,19 @@
+<div class="main">
+    <div class="a"></div>
+    <div class="b">
+        <input #name placeholder="Enter Name" type="text" (input)="onNameChange(name.value)"/>
+        <div class="error">{{usernameerror}}</div>
+        <br/>
+        <input #email placeholder="Enter Email"  type="email" (input)="onEmailChange(email.value)"/>
+        <br/>
+        <input #password placeholder="Password" type="password" (input)="onPasswordChange(password.value)"/>
+        <br/>
+        <input #cpassword placeholder="Confirm Password" type="password" (input)="onConfirmPassword(cpassword.value)"/>
+        <div class="error">{{userpasssworderror}}</div>
+        <br/>
+        <div class="btn">
+            <button>SUBMIT</button>
+        </div>
+    </div>
+    <div class="c"></div>
+</div>

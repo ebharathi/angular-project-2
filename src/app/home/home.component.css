@@ -1,0 +1,41 @@
+.main{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+}
+.main .a{
+    flex:2;
+}
+.main .b{
+    flex:4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.b input{
+    max-width: 300px;
+    padding: 10px 45px;
+}
+
+.btn{
+    text-align: center;
+}
+.btn button{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: white;
+    color: blue;
+}
+.main .c{
+    flex:2;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
