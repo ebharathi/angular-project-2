@@ -1,0 +1,25 @@
+nav{
+   display: flex;
+   background-color: #3a3939;
+   flex-direction: row;
+   color: white;
+}
+li{
+    list-style: none;
+    padding: 0 5px;
+    font-size: 14px;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+}
+.a{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    flex:6;
+    padding: 0 2px;
+}
+.b{
+    flex:4;
+}
